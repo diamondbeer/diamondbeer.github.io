@@ -1,0 +1,30 @@
+html,body {margin: 0; padding: 0; height: 100%; background: url(../img/cover1.png) fixed; background-size: cover; background-repeat: no-repeat;font-family: 'Anton', sans-serif;}
+
+.nav {position: relative;  font-weight: 500;z-index: 100;width: 100%; display: flex; justify-content: center; align-items: center; font-family: 'Roboto', sans-serif;}
+.nav_box{display: flex;justify-content: space-between; align-items: center; width: 30%; padding: 0;}
+.nav_box_items{list-style: none; }
+.nav_box_items a{color: white; text-decoration: none; padding: 10px;}
+.nav_box_items a:hover{border-bottom: 2px solid white; }
+#home {border-bottom: 2px solid white;}
+.filter{position: absolute;z-index: 0;  background: black fixed; width: 100%; height: 100%;}
+.cover{display:flex; align-items: center; justify-content: left; height: 100%;  margin-top: -50px;font-family: 'Anton', sans-serif;}
+
+.cover_caption{ position: relative;z-index: 1; animation-duration: 1s; color: #ffffff; margin: 0; font-size: 50px; margin-left: 75px;}
+.arancione {color: #ffba08;}
+
+.stagionali{display: flex; align-items: center; justify-content: center;}
+#immagine_aut{height:30%; width: 30%; position: relative;z-index: 1;  margin-left: 75px; margin-right: 105px;}
+.stagionali_caption{display: flex; justify-content: center; flex-direction: column; font-weight: 80; position: relative;z-index: 1; animation-duration: 1s; color: #ffffff; font-size: 25px; margin-left: 10px; margin-right: 60px;}
+.stagionali_caption a{padding: 10px 20px 10px 20px; text-decoration: none; color: black; background: #ffffff; width: 64px; border-radius: 10px;}
+
+
+
+.merch{display: flex; justify-content: center; align-items: center; margin-top: 250px;}
+.merch_copy{font-size: 75px; color: #ffffff; font-weight: 50;}
+
+
+.footer{background: #333; display: flex; justify-content: space-between; margin-top:50px; font-family: 'Roboto', sans-serif;}
+.footer img{height: 150px;}
+.footer p {color: rgb(240, 240, 240); align-self: center; padding-left: 30px;}
+.footer img,a{color: rgb(240, 240, 240);}
+
