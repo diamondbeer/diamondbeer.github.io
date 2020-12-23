@@ -13,6 +13,7 @@
 <body>
  
     <nav class="nav">
+    
         <ul class="nav_box">
             <li class="nav_box_items"><a href="index.html" id="home">HOME</a></li>
             <li class="nav_box_items"><a href="moodboard.html" id="moodboard">MOODBOARD</a></li>
@@ -44,6 +45,15 @@
     <img src="img/Logo_trasparente_2.png" alt="">
   </footer>
 
+  <script>
+    $(document).ready(function(){
+      
+      $(".header_icon-bar").click(function(e){
 
+        $(".header_menu").toggleClass('is-open');
+        e.preventDefault();
+      });
+    });
+</script>
 </body>
 </html>
