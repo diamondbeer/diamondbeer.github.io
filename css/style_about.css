@@ -22,3 +22,12 @@ html,body {margin: 0; padding: 0; height: 100%; background: url(../img/cover1.pn
 .footer p {color: rgb(240, 240, 240); align-self: center; padding-left: 30px;}
 .footer img,a{color: rgb(240, 240, 240);}
 
+
+@media (max-width: 767px){
+    .nav{justify-content:right;}
+    .nav_box{width: 90%; margin-left: 20px;}
+.cover{height: auto;}
+    .cover_copy{width:90%; margin: 30px; text-align: center; margin-top: 50px ;}
+
+    
+}
