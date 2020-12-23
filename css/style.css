@@ -24,6 +24,22 @@ html,body {margin: 0; padding: 0; height: 100%; background: url(../img/cover1.pn
 .merch_copy{font-size: 75px; color: #ffffff; font-weight: 50;}
 
 
+.gadget{display: flex; justify-content: space-between; align-items: center; margin: 150px 150px 0 100px; width: auto;}
+.gadget_text{color: #ffffff; width: 55%;}
+.gadget_text h1{color: #ffba08;}
+.gadget img{height: 200px;}
+#lista{font-family: 'Roboto', sans-serif;}
+#felpe {margin-right: 50px;}
+#cover7 {margin-right: 75px;}
+#maglia_uomo {width: 300px;}
+
+.gift{display: flex; justify-content: center; align-items: center; margin-top: 50px;}
+.gift_copy{font-size: 75px; color: #ffffff; font-weight: 50;}
+
+.gift_card{display: flex; justify-content: center; align-items: center;}
+.gift_card img{margin: 0 35px; width: 300px;}
+
+
 .footer{background: #333; display: flex; justify-content: space-between; margin-top:50px; font-family: 'Roboto', sans-serif;}
 .footer img{height: 150px;}
 .footer p {color: rgb(240, 240, 240); align-self: center; padding-left: 30px;}
@@ -36,13 +52,21 @@ html,body {margin: 0; padding: 0; height: 100%; background: url(../img/cover1.pn
     .cover{height: 70%;}
     .cover_caption{font-size: 30px; margin-left: 40px;}
 
-
+    .stagionali{flex-direction: column; height: 40%; justify-content: center; align-items: center;}
 
    .merch_copy{font-size: 50px;}
-   #immagine_aut{height:30%; width: 35%; position: relative;z-index: 1;  margin-left: 30px; margin-right: 30px;}
-    .stagionali_caption{font-size: 10px; margin-left: 0px;}
-    .stagionali_caption a{padding: 5px; width: 27px; font-size: 10px; line-height: 8px;}
+   #immagine_aut{height:200px; width: 300px; position: relative;z-index: 1;  margin-left: 30px; margin-right: 30px;}
+    .stagionali_caption{font-size: 30px; margin: 0; justify-content: center; justify-content: center; align-items: center; width: 80%;}
+    .stagionali_caption a{padding: 5px; width: max-content; font-size: 25px; }
+    .stagionali_caption h1{width: max-content; font-size: 40px;}
 
+    .gadget{flex-direction: column; margin:50px 0px 0 0px ;}
+    .gadget_text{width: 75%;}
+
+    .gift_copy{font-size: 50px;}
+    .gift_card img{width: 100px;}
+
+    .footer img{height: 125px;}
 
 }
 
