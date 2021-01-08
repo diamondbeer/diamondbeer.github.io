@@ -24,7 +24,7 @@ html,body {margin: 0; padding: 0; height: 100%; background: url(../img/cover1.pn
 .merch_copy{font-size: 75px; color: #ffffff; font-weight: 50;}
 
 
-.gadget{display: flex; justify-content: space-between; align-items: center; margin: 150px 150px 0 100px; width: auto;}
+.gadget{display: flex; justify-content: space-between; align-items: center; margin: 150px 150px 0 100px; width: auto; padding: 1vw; border-radius: 10px; background-color: #333333;}
 .gadget_text{color: #ffffff; width: 55%;}
 .gadget_text h1{color: #ffba08;}
 .gadget img{height: 200px;}
@@ -60,7 +60,7 @@ html,body {margin: 0; padding: 0; height: 100%; background: url(../img/cover1.pn
     .stagionali_caption a{padding: 5px; width: max-content; font-size: 25px; }
     .stagionali_caption h1{width: max-content; font-size: 40px;}
 
-    .gadget{flex-direction: column; margin:50px 0px 0 0px ;}
+    .gadget{flex-direction: column; margin:50px 0px 0 0px ; padding: 0.5%;}
     .gadget_text{width: 75%;}
 
     .gift_copy{font-size: 50px;}
